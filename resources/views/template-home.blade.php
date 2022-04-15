@@ -6,8 +6,8 @@
 
 @section('content')
   @while(have_posts()) @php(the_post())
-    <div class="">
-      <p class="">Home Template</p>
+    <div class="bg-lightBlue">
+      <p class="text-white">Home Template</p>
     </div>
   @endwhile
 @endsection
